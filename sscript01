@@ -1,0 +1,19 @@
+
+echo "This is Taj Fatima"
+# addition
+echo "enter 1st no:"
+read a
+echo "enter 2nd no:"
+read b
+s=`expr $a + $b`
+echo "Result : $s"
+# multiplication
+echo "enter 1st no:"
+read a
+echo "enter 2nd no:"
+read b
+s=`expr $a \* $b`
+echo "Result : $s"
+# content
+echo -e "A Bash script is a plain text file \n which contains a series of commands"
+echo -e "These cammands are \t mixture of commands we would nnormally \t type ourselves on the command "
